@@ -11,7 +11,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import model_from_json
 
 # 模型載入
-model = tf.keras.models.load_model('emnist_cnn_model.keras') #, compile=False)
+model = tf.keras.models.load_model('emnist_cnn_model.keras' , compile=False)
 
 col1, col2 = st.columns(2)
 
